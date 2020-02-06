@@ -2,6 +2,10 @@
     background-color:#05386B;
     color:#DFDCE3;
 }
+.mb-1{
+    margin-bottom:0px !important;
+
+}
 .brandColor{
     color:#FAED26;
     font-weight:900;
@@ -11,4 +15,21 @@
     color:#DFDCE3;
     font-weight:500;
     font-size:20px;
+}
+.showcase{
+    width:100%;
+    margin-right:0rem !important;
+}
+.carousel-inner img {
+    max-height:600px;
+}
+.welcome{
+    font-size:4rem;
+    color:#FAED26;
+}
+.container{
+    margin-top:2rem;
+}
+.page-footer{
+    background-color:#05386B;
 }
