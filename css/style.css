@@ -33,3 +33,11 @@
 .page-footer{
     background-color:#05386B;
 }
+.star{
+    color:#FAED26;
+}
+.topic{
+    background-color:#05386B !important;
+    color:#FAED26 !important;
+    font-family: 'PT Serif', serif;
+}

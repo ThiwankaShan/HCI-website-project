@@ -24,7 +24,7 @@
   <a class="navbar-brand" href="#"><span class="brandColor">E-College</span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="white-text"><i class="fas fa-bars fa-1x"></i></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
     <ul class="navbar-nav mr-auto">
@@ -74,8 +74,8 @@
     <div class="py-5">
 
       <!-- Content -->
-      <h5 class="h5 orange-text text-center"><span class="welcome">Welcome</span></h5>
-      <h2 class="card-title h2 my-4 py-2">Acess 5000+ courses free online.<br> Sart today!</h2>
+      <h5 class="h5 orange-text text-center"><span class="welcome"></span></h5>
+      <h2 class="card-title h2 my-4 py-2">Access 5000+ courses free online.<br> Sart today!</h2>
       <h2 class="card-title h2 my-4 py-2">Teach to 1000+ Students from all over the World</h2>
       <a class="btn peach-gradient animated tada infinite"><i class="fas fa-chalkboard-teacher"></i> Teach</a>
 
@@ -88,7 +88,7 @@
 <div class="container">
   <!-- Search form -->
 <form class="form-inline justify-content-center ">
-  <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Browse your course here"
+  <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search by subject or teacher"
     aria-label="Search">
   <i class="fas fa-search" aria-hidden="true"></i>
 </form>
@@ -96,8 +96,8 @@
 
 <!-- Sugesstion section Start-->
 <!--Top Courses start-->
-  <div class="card-header text-start" style="margin-top:1rem;">
-    <h4>Top Courses</h4>
+  <div class="card-header text-start topic" style="margin-top:1rem;">
+    <h4>Popular Courses</h4>
   </div>
   <div class="row">
     <div class="col-lg-4 col-md-12 mb-4">
@@ -118,8 +118,11 @@
         <!--Card content-->
         <div class="card-body card-body-cascade">
           <h5 class="pink-text">Chemistry</h5>
+          
+            <footer class="blockquote-footer mb-3"><cite title="Source Title">Christina</cite></footer>
+          
           <!--Title-->
-          <h4 class="card-title">Cheat day inspirations</h4>
+          <h4 class="card-title">Advance enthalpy Part II</h4>
           <!--Text-->
           <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
             laboriosam, nisi ut
@@ -150,8 +153,10 @@
         <!--Card content-->
         <div class="card-body card-body-cascade">
           <h5 class="pink-text">Biology</h5>
+            <footer class="blockquote-footer mb-3"> <cite title="Source Title">Shane</cite></footer>
+         
           <!--Title-->
-          <h4 class="card-title">Cheat day inspirations</h4>
+          <h4 class="card-title">Respiratory system</h4>
           <!--Text-->
           <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
             laboriosam, nisi ut
@@ -182,8 +187,10 @@
         <!--Card content-->
         <div class="card-body card-body-cascade">
           <h5 class="pink-text">Mathematics</h5>
+            <footer class="blockquote-footer mb-3"> <cite title="Source Title">Anna</cite></footer>
+      
           <!--Title-->
-          <h4 class="card-title">Cheat day inspirations</h4>
+          <h4 class="card-title">Graph theory</h4>
           <!--Text-->
           <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
             laboriosam, nisi ut
@@ -199,7 +206,7 @@
   </div>
   <!--Top courses End-->
   <!--Top teachers start-->
-  <div class="card-header text-start">
+  <div class="card-header text-start topic">
     <h4>Top Teachers</h4>
   </div>
   <div class="row">
@@ -221,8 +228,16 @@
         <!--Card content-->
         <div class="card-body card-body-cascade">
           <h5 class="pink-text">Anna</h5>
+
+          <ul class="list-group list-group-horizontal list-group-flush star" style="font-size:10px;">
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+          </ul>
+
           <!--Title-->
-          <h4 class="card-title">Master’s in Education, UCD School of Education – 2003</h4>
+          <h5 class="card-title">- Master’s in Education, UCD School of Education</h5>
           <!--Text-->
           <p class="card-text">I have been employed at several secondary schools in Dublin county across all year groups. I have also undertaken management positions including as Head of the History department.</p>
           <a class="btn btn-unique">Explore</a>
@@ -251,11 +266,19 @@
         <!--Card content-->
         <div class="card-body card-body-cascade">
           <h5 class="pink-text">Shane</h5>
+
+          <ul class="list-group list-group-horizontal list-group-flush star" style="font-size:10px;">
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+          </ul>
+
           <!--Title-->
-          <h4 class="card-title">Bachelors of Education at DCU – 1999 – 2002</h4>
+          <h5 class="card-title">- Bachelors of Education at DCU </h5>
           <!--Text-->
           <p class="card-text"> I have crafted an extensive secondary school teaching skill set that enables me to create lesson plans that students find genuinely interesting, and produces exemplary results in examinations and pupil development.</p>
-          <a class="btn btn-unique">Enroll</a>
+          <a class="btn btn-unique">Explore</a>
         </div>
         <!--/.Card content-->
   
@@ -281,13 +304,21 @@
         <!--Card content-->
         <div class="card-body card-body-cascade">
           <h5 class="pink-text">Hanna</h5>
+
+          <ul class="list-group list-group-horizontal list-group-flush star" style="font-size:10px;">
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+            <li class="list-group-item"><i class="fas fa-star"></i></li>
+          </ul>
+
           <!--Title-->
-          <h4 class="card-title">Cheat day inspirations</h4>
+          <h5 class="card-title">- BA in English, 2005</h5>
           <!--Text-->
-          <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-            laboriosam, nisi ut
-            aliquid ex ea commodi.</p>
-          <a class="btn btn-unique">Enroll</a>
+          <p class="card-text">
+            I have been employed at several Universities in Dublin county as senior lecturer. I have also undertaken management positions including as Head of the It department.
+          </p>
+          <a class="btn btn-unique">Explore</a>
         </div>
         <!--/.Card content-->
   
@@ -307,6 +338,77 @@
 
   <!-- Footer Elements -->
   <div class="container">
+    
+     <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left" style="padding-top:2rem;">
+
+    <!-- Grid row -->
+    <div class="row" >
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">E-College</h5>
+        <p>Where you learn and teach .</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase"><span style="color:#FAED26; font-weight: 600;">E-College</span></h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">About us</a>
+          </li>
+          <li>
+            <a href="#!">E-college for Business</a>
+          </li>
+          <li>
+            <a href="#!">Careers</a>
+          </li>
+          <li>
+            <a href="#!">News</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Legal</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Terms of service & Honor</a>
+          </li>
+          <li>
+            <a href="#!">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#!">Trademark Policy</a>
+          </li>
+          <li>
+            <a href="#!">Sitemap</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
 
     <!-- Grid row-->
     <div class="row">
@@ -351,7 +453,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    <a href="https://mdbootstrap.com/education/bootstrap/"> E-College.com</a>
   </div>
   <!-- Copyright -->
 
